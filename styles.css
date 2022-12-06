@@ -1,0 +1,88 @@
+html,body { height:100%; }
+.realbody {
+    background-color:#03254C;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .heading
+  {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 500%;
+    text-align: center;
+    color: rgb(39, 214, 202);
+    padding: 5rem;
+  }
+  .yo{
+    padding: 1rem;
+    border-radius: 10px;
+    color: rgb(212, 212, 169);
+    background-color: rgb(132, 1, 1);
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .dropdown
+  {
+    padding: 5rem;
+    text-align: center;
+  }
+  .butt{
+    padding: 5rem;
+    text-align: center;
+  }
+  .land
+  {
+    padding: 1rem;
+    font-size: 250%;
+    font-family:Inter;
+    color: aqua;
+  }
+  a:link { text-decoration: none; }
+  .locations{
+    color: azure;
+    padding: 10rem;
+  }
+  .logo
+  {
+    height: 6rem;
+  }
+  .map
+  {
+    height: 5rem;
+    width: 5rem;
+  }
+  .feeform{
+    padding: 2rem;
+    color: white;
+  }
+  .contactform
+  {
+    margin: auto;
+    margin-top: 10rem;
+    height: 25rem;
+    width: 25rem;
+    background-color: white;
+  }
+
+  
+  .nav-item a{
+    color:white;
+    background-color:#03254C;
+  }
+  .nav-item a:hover{
+    color: aquamarine;
+  }
+  canvas{
+    top:8em;
+    position:absolute;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 32%;
+    margin-right: 32%;
+    display: block;
+    width: 800px;
+  }
+  .map{
+    display: flexbox;
+    align-items: flex-end;
+  }
